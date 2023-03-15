@@ -11,7 +11,11 @@ export default function Header() {
       <div className="flex justify-between mx-2 max-w-6xl sm:mx-auto items-center py-6">
         <div className="flex ">
           <MenuItems title="HOME" address="/" Icon={AiFillHome} />
-          <MenuItems title="ABOUT" address="/" Icon={BsFillInfoCircleFill} />
+          <MenuItems
+            title="ABOUT"
+            address="/about"
+            Icon={BsFillInfoCircleFill}
+          />
         </div>
         <div className="flex items-center space-x-5">
           <DarkModeSwitch />
