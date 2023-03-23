@@ -8,7 +8,7 @@ export default function Card({ result }) {
       className="cursor-pointer sm:p-3 
     sm:hover:shadow-slate-400 sm: shadow-md  sm:border sm: border-slate-400 rounded-lg sm: transition-shadow duration-200 sm:m-2 group"
     >
-      <Link href={`movies/${result.id}`}>
+      <Link href={`movie/${result.id}`}>
         <Image
           src={`https://image.tmdb.org/t/p/original/${
             result.backdrop_path || result.poster_path
